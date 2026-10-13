@@ -81,10 +81,17 @@ body {
 
 #hamburger-menu {
     display: none;
-
 }
 
+/* HERO SECTION */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('..img/herobg.jpg') background-repeat: no-repeat;
+    background-size: cover;
 
+}
 
 
 
