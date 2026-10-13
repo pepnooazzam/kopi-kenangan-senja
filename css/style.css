@@ -177,7 +177,18 @@ body {
     padding: 0 1rem;
 }
 
+.about .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.6rem;
+
+}
 
 /* media queries */
 
@@ -232,7 +243,28 @@ body {
 
     }
 
+    .about .row {
+        flex-wrap: wrap;
+    }
 
+    .about .row .about-img img {
+        height: 24rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .about .row .content {
+        padding: 0;
+    }
+
+    .about .row .content h3 {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .about .row .content p {
+        font-size: 1.6rem;
+    }
 }
 
 
